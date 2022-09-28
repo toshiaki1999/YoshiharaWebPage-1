@@ -1,0 +1,73 @@
+body{
+	background: floralwhite;
+}
+.w-full {
+	position: relative;
+	margin-top: 10%;
+	z-index: 1;
+}
+h1{
+	font-weight: bold;
+	font-size: 300%;
+}
+.w-full{
+	width: 100%;
+}
+.menu{
+	position: fixed;
+	background: skyblue;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.menu ul{
+	bottom: 0;
+	list-style-type:none;/*箇条書きのポッチを消す*/
+	text-align: center/*左右中央寄せは親要素に対して指定*/
+}
+.menu ul li{
+	font-size: 80%;
+	display:inline-block;
+	width: 300px;
+	padding: 5px;
+	margin: 0;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+	background: skyblue;
+	font-weight: bold;/*文字を太字に*/
+	color: black;/*文字色*/
+}
+
+.intro, .news, .research, .publish, .collabo{
+	border: solid 1px gray;
+	position: relative;
+}
+.subtitle:before, .subtitle:after{
+	content: "---";
+}
+.intro p{
+	text-align: center;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	font-size: 300%;
+	display: block;
+	padding:8px;
+	margin: 10px;
+	font-weight: bold;
+}
+.collabo ul{
+	bottom: 0;
+	list-style-type:none;/*箇条書きのポッチを消す*/
+	text-align: center;/*左右中央寄せは親要素に対して指定*/	
+}
+.collabo ul li{
+	display:inline-block;
+	padding: 10px;
+	margin: 5px;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+	font-weight: bold;/*文字を太字に*/
+	color: black;/*文字色*/
+	border: solid 3px black;
+}
