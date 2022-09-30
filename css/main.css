@@ -3,12 +3,12 @@ body{
 }
 .w-full {
 	position: relative;
-	margin-top: 10%;
+	margin-top: 5%;
 	z-index: 1;
 }
 h1{
 	font-weight: bold;
-	font-size: 300%;
+	font-size: 100%;
 }
 .w-full{
 	width: 100%;
@@ -28,8 +28,8 @@ h1{
 .menu ul li{
 	font-size: 80%;
 	display:inline-block;
-	width: 300px;
-	padding: 5px;
+	width: 20%; /*100%割る「menu tabの数」 */
+	padding: 0;
 	margin: 0;
 	vertical-align:middle;/*縦の表示位置を真ん中に*/
 	background: skyblue;
@@ -59,8 +59,8 @@ h2{
 }
 .collabo ul{
 	bottom: 0;
-	list-style-type:none;/*箇条書きのポッチを消す*/
-	text-align: center;/*左右中央寄せは親要素に対して指定*/	
+	list-style-type:none;
+	text-align: center;
 }
 .collabo ul li{
 	display:inline-block;
@@ -70,4 +70,33 @@ h2{
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
 	border: solid 3px black;
+}
+.bottom_tab{
+	background-color: gray;
+	text-align: center;
+	color:white;
+}
+.bottom_tab li.left{
+	text-align: left;
+}
+.bottom_tab ul.ul1{
+	top:0;
+	list-style-type:none;
+}
+.bottom_tab ul.ul1 li{
+	padding: 10px;
+	margin: 5px;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+}
+.bottom_tab ul.ul2{
+	list-style-type:none;
+}
+.bottom_tab ul.ul2 li{
+	display:inline-block;
+	padding: 5px;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+}
+.address{
+	text-align: right;
+	margin:10px;
 }
