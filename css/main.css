@@ -28,7 +28,7 @@ h1{
 .menu ul li{
 	font-size: 80%;
 	display:inline-block;
-	width: 20%; /*100%割る「menu tabの数」 */
+	width: 10%; 
 	padding: 0;
 	margin: 0;
 	vertical-align:middle;/*縦の表示位置を真ん中に*/
@@ -51,7 +51,7 @@ h1{
 
 h2{
 	text-align: center;
-	font-size: 300%;
+	font-size: 150%;
 	display: block;
 	padding:8px;
 	margin: 10px;
@@ -71,6 +71,10 @@ h2{
 	color: black;/*文字色*/
 	border: solid 3px black;
 }
+.collabo li.tsai_web{
+	background-color: antiquewhite;
+}
+/* bottom_tab */
 .bottom_tab{
 	background-color: gray;
 	text-align: center;
