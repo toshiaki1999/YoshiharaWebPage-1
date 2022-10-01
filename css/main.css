@@ -5,13 +5,11 @@ body{
 	position: relative;
 	margin-top: 5%;
 	z-index: 1;
+	width: 100%;
 }
 h1{
 	font-weight: bold;
 	font-size: 100%;
-}
-.w-full{
-	width: 100%;
 }
 .menu{
 	position: fixed;
