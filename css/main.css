@@ -35,7 +35,7 @@ h1{
 	color: black;/*文字色*/
 }
 
-.intro, .news, .research, .publish, .collabo{
+.intro, .news, .collabo{
 	border: solid 1px gray;
 	position: relative;
 }
@@ -72,6 +72,7 @@ h2{
 .collabo li.tsai_web{
 	background-color: antiquewhite;
 }
+
 /* bottom_tab */
 .bottom_tab{
 	background-color: gray;
