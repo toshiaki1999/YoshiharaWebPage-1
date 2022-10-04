@@ -11,6 +11,8 @@ h1{
 	font-weight: bold;
 	font-size: 100%;
 }
+
+/*menu*/
 .menu{
 	position: fixed;
 	background: skyblue;
@@ -30,7 +32,6 @@ h1{
 	padding: 0;
 	margin: 0;
 	vertical-align:middle;/*縦の表示位置を真ん中に*/
-	background: skyblue;
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
 }
@@ -39,21 +40,25 @@ h1{
 .link-icon {
 	width:100%;
 }
-.link-icon ul{
+.link-icon ul {
 	bottom: 0;
 	list-style-type: none;
 	text-align: center;
 }
+.link-icon a, .link-icon .link1, .link-icon .link2, .link-icon .link3, .link-icon .link4{
+	height: 100%;
+	width:100%;
+}
 .link-icon ul li{
-	max-width: 50px;
-	font-size:80px;
 	display: inline-block;
-	padding: 10px;
-	margin: 5px;
 	background-color: skyblue;
 	vertical-align: middle;
 	color:black;
 	border: solid 3px;
+}
+.link-icon .pic1, .link-icon .pic2, .link-icon .pic3, .link-icon .pic4{
+	height: 5rem;
+	margin: 5px;
 }
 
 .intro, .news, .collabo{
