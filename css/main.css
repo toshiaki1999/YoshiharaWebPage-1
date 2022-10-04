@@ -35,6 +35,27 @@ h1{
 	color: black;/*文字色*/
 }
 
+/*link-icon*/
+.link-icon {
+	width:100%;
+}
+.link-icon ul{
+	bottom: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.link-icon ul li{
+	max-width: 50px;
+	font-size:80px;
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	background-color: skyblue;
+	vertical-align: middle;
+	color:black;
+	border: solid 3px;
+}
+
 .intro, .news, .collabo{
 	border: solid 1px gray;
 	position: relative;
