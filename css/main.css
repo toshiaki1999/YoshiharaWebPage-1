@@ -1,5 +1,5 @@
 body{
-	background: floralwhite;
+	background: white;
 }
 .w-full {
 	position: relative;
@@ -35,6 +35,18 @@ h1{
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
 }
+/*intro*/
+.intro, .news, .collabo{
+	border: solid 1px gray;
+	position: relative;
+}
+.subtitle:before, .subtitle:after{
+	content: "---";
+}
+.intro p{
+	text-align: center;
+	font-size: auto;
+}
 
 /*link-icon*/
 .link-icon {
@@ -55,24 +67,15 @@ h1{
 	vertical-align: middle;
 	color:black;
 	border: solid 3px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .link-icon .pic1, .link-icon .pic2, .link-icon .pic3, .link-icon .pic4{
 	height: 5rem;
 	margin: 5px;
 }
 
-.intro, .news, .collabo{
-	border: solid 1px gray;
-	position: relative;
-}
-.subtitle:before, .subtitle:after{
-	content: "---";
-}
-.intro p{
-	text-align: center;
-	font-size: 30px;
-}
-
+/*Collaborators*/
 h2{
 	text-align: center;
 	font-size: 150%;
@@ -95,8 +98,13 @@ h2{
 	color: black;/*文字色*/
 	border: solid 3px black;
 }
-.collabo li.tsai_web{
-	background-color: antiquewhite;
+.collabo li.tsai_web, li.riken_web, li.nict_web, li.aist_web, li.moonshot_web, li.q-leep_web, li.kakenhi_web{
+	background-color: white;
+	
+}
+.collabo img{
+	width: auto;
+	height: 50px;
 }
 
 /* bottom_tab */
