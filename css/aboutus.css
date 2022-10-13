@@ -1,3 +1,7 @@
+.body{
+	position: absolute;
+}
+
 /*menu*/
 h1{
 	font-weight: bold;
@@ -24,4 +28,49 @@ h1{
 	vertical-align:middle;/*縦の表示位置を真ん中に*/
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
+}
+
+/*全class共通*/
+.about_research, .outlook, .activity{
+	display: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+/*about research*/
+
+.about_research p{
+	text-align: center;
+}
+
+/* bottom_tab */
+.bottom_tab{
+	background-color: gray;
+	text-align: center;
+	color:white;
+}
+.bottom_tab li.left{
+	text-align: left;
+}
+.bottom_tab ul.ul1{
+	top:0;
+	list-style-type:none;
+}
+.bottom_tab ul.ul1 li{
+	padding: 10px;
+	margin: 5px;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+}
+.bottom_tab ul.ul2{
+	list-style-type:none;
+}
+.bottom_tab ul.ul2 li{
+	display:inline-block;
+	padding: 5px;
+	vertical-align:middle;/*縦の表示位置を真ん中に*/
+}
+.address{
+	text-align: right;
+	margin:10px;
 }

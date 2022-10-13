@@ -1,5 +1,6 @@
 body{
 	background: white;
+	color: black;
 }
 .w-full {
 	position: relative;
@@ -10,6 +11,14 @@ body{
 h1{
 	font-weight: bold;
 	font-size: 100%;
+}
+
+/*背景画像*/
+.background img.back_img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
 }
 
 /*menu*/
@@ -35,14 +44,24 @@ h1{
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
 }
-/*intro*/
-.intro, .news, .collabo{
-	border: solid 1px gray;
+
+/*common*/
+.intro, .link-icon, .news, .topic, .collabo{
+	border: solid 1px black;
 	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	background-color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	z-index: 100;
 }
 .subtitle:before, .subtitle:after{
 	content: "---";
 }
+
+/*intro*/
 .intro p{
 	text-align: center;
 	font-size: auto;
@@ -50,7 +69,6 @@ h1{
 
 /*link-icon*/
 .link-icon {
-	width:100%;
 }
 .link-icon ul {
 	bottom: 0;
@@ -109,9 +127,10 @@ h2{
 
 /* bottom_tab */
 .bottom_tab{
-	background-color: gray;
 	text-align: center;
+	background-color: grey;
 	color:white;
+	z-index: 1000;
 }
 .bottom_tab li.left{
 	text-align: left;
