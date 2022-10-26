@@ -25,3 +25,22 @@ h1{
 	font-weight: bold;/*文字を太字に*/
 	color: black;/*文字色*/
 }
+
+.people_box{
+	margin-top:100px;
+}
+.people_box ul{
+	text-align: center;
+
+}
+.people_box li{
+	display: inline-block;
+	background-color: skyblue;
+	vertical-align: middle;
+	color:black;
+	border: solid 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
